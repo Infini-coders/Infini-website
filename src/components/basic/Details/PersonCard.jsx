@@ -9,7 +9,7 @@ const PersonCard = ({ name, imageUrl }) => {
   return (
     <>
       <div
-        className="relative flex flex-col items-center cursor-pointer"
+        className="relative flex flex-col items-center cursor-pointer z-[0]"
         onClick={() => setIsModalOpen(true)}
       >
         <div className="relative min-w-32 bg-[#070829] rounded-lg p-3 border border-blue-400 min-w-[120px] z-10 hover:border-blue-300 transition-colors">
