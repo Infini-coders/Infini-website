@@ -12,7 +12,7 @@ const PersonCard = ({ name, imageUrl }) => {
         className="relative flex flex-col items-center cursor-pointer"
         onClick={() => setIsModalOpen(true)}
       >
-        <div className="relative bg-[#070829] rounded-lg p-3 border border-blue-400 min-w-[120px] z-10 hover:border-blue-300 transition-colors">
+        <div className="relative min-w-32 bg-[#070829] rounded-lg p-3 border border-blue-400 min-w-[120px] z-10 hover:border-blue-300 transition-colors">
           <div className="flex justify-center mb-8">
             <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-800">
               <img
