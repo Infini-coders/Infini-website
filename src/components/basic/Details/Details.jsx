@@ -32,11 +32,11 @@ const OrgChart = () => {
   };
 
   return (
-    <div className="min-h-screen bg-cover bg-center bg-no-repeat relative overflow-hidden md:pt-[50px] pt-[5dvw]">
+    <div className="h-auto bg-cover bg-center bg-no-repeat relative overflow-hidden md:pt-[50px] pt-[5dvw]">
       <div className="absolute inset-0" />
       <GradientAnimation>
 
-        <div className="w-full min-h-screen p-2 md:p-4 relative">
+        <div className="w-full h-auto p-2 md:p-4 relative">
           <div className="max-w-7xl mx-auto relative">
             {/*UI/UX, Founders, DevOps */}
             <div className="grid grid-cols-2 lg:grid-cols-7 gap-4 lg:gap-12 mb-8">
